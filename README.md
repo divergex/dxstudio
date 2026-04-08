@@ -13,3 +13,6 @@ Start the GUI
 ```bash
 python -m dxstudio.gui
 ```
+
+
+![Demo](demo.png)
