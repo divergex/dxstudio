@@ -1,0 +1,11 @@
+[project]
+name = "dxstudio"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "pyyaml>=6.0.3",
+]
+[project.optional-dependencies]
+gui = ["PySide6"]
+dev = ["pytest", "black"]
